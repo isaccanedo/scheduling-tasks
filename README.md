@@ -27,9 +27,9 @@ Este exemplo usa ```fixedRate```, que especifica o intervalo entre as chamadas d
 
 # 3. ```@SpringBootApplication``` é uma anotação de conveniência que adiciona todos os seguintes:
 
-- @Configuration: marca a classe como uma fonte de definições de bean para o contexto do aplicativo.
+- **@Configuration**: marca a classe como uma fonte de definições de bean para o contexto do aplicativo.
 
-- @EnableAutoConfiguration: Diz ao Spring Boot para começar a adicionar beans com base nas configurações de classpath, outros beans e várias configurações de propriedade. Por exemplo, se spring-webmvc estiver no caminho de classe, esta anotação sinaliza o aplicativo como um aplicativo da web e ativa comportamentos-chave, como configurar um DispatcherServlet.
+- **@EnableAutoConfiguration**: Diz ao Spring Boot para começar a adicionar beans com base nas configurações de classpath, outros beans e várias configurações de propriedade. Por exemplo, se spring-webmvc estiver no caminho de classe, esta anotação sinaliza o aplicativo como um aplicativo da web e ativa comportamentos-chave, como configurar um DispatcherServlet.
 
-- @ComponentScan: Diz ao Spring para procurar outros componentes, configurações e serviços no pacote com / example, permitindo que ele encontre os controladores.
+- **@ComponentScan**: Diz ao Spring para procurar outros componentes, configurações e serviços no pacote com / example, permitindo que ele encontre os controladores.
 
