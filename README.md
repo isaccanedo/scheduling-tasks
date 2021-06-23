@@ -31,5 +31,10 @@ Este exemplo usa ```fixedRate```, que especifica o intervalo entre as chamadas d
 
 - **@EnableAutoConfiguration**: Diz ao Spring Boot para começar a adicionar beans com base nas configurações de classpath, outros beans e várias configurações de propriedade. Por exemplo, se spring-webmvc estiver no caminho de classe, esta anotação sinaliza o aplicativo como um aplicativo da web e ativa comportamentos-chave, como configurar um DispatcherServlet.
 
-- **@ComponentScan**: Diz ao Spring para procurar outros componentes, configurações e serviços no pacote com / example, permitindo que ele encontre os controladores.
+- **@ComponentScan**: Diz ao Spring para procurar outros componentes, configurações e serviços no pacote com/example, permitindo que ele encontre os controladores.
+
+# 4. método main()
+O método main() usa o método SpringApplication.run() do Spring Boot para iniciar um aplicativo. Você percebeu que não havia uma única linha de XML? Também não há arquivo web.xml. Este aplicativo da web é 100% Java puro e você não precisou configurar nenhum encanamento ou infraestrutura.
+
+Também existe um método CommandLineRunner marcado como @Bean, que é executado na inicialização. Ele recupera todos os beans que foram criados por seu aplicativo ou que foram adicionados automaticamente pelo Spring Boot. Ele os classifica e imprime.
 
