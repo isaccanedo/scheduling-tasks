@@ -25,7 +25,7 @@ A anotação @Scheduled define quando um método específico é executado.
 Este exemplo usa ```fixedRate```, que especifica o intervalo entre as chamadas do método, medido a partir da hora de início de cada chamada. Existem outras opções , como ```fixedDelay```, que especifica o intervalo entre as chamadas medido a partir da conclusão da tarefa. Você também pode usar ```@Scheduled(cron=". . .")``` expressões para agendamento de tarefas mais sofisticado.
 
 
-```@SpringBootApplication``` é uma anotação de conveniência que adiciona todos os seguintes:
+# 3. ```@SpringBootApplication``` é uma anotação de conveniência que adiciona todos os seguintes:
 
 - @Configuration: marca a classe como uma fonte de definições de bean para o contexto do aplicativo.
 
