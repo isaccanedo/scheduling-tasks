@@ -1,6 +1,6 @@
 # Getting Started
 
-# 1. O que você construirá?
+# 1. O que você construirá
 Você construirá um aplicativo que imprime a hora atual a cada cinco segundos usando a ```@Scheduled``` anotação do Spring .
 
 # 2. Adicionando a dependência awaitility
