@@ -7,7 +7,7 @@ Você construirá um aplicativo que imprime a hora atual a cada cinco segundos u
 
 Os testes complete/src/test/java/com/example/schedulingtasks/ScheduledTasksTest.java requerem a awaitility biblioteca.
 
-Versões posteriores da biblioteca awaitility não funcionam para este teste, então você deve especificar a versão 3.1.2.
+Versões posteriores da biblioteca awaitility não funcionam para este teste, então você deve especificar a versão 3.1.2
 
 Para adicionar a biblioteca awaitility ao Maven, adicione a seguinte dependência:
 
